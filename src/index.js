@@ -1,6 +1,7 @@
 import { mainPage } from "./pageload";
 import { menuPage } from "./menu";
 import { contactsPage } from "./contacts";
+import './style.css';
 
 const homeButton = document.querySelector('.home-btn');
 const menuButton = document.querySelector('.menu-btn');

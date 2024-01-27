@@ -1,3 +1,5 @@
+import Photo from './img/beau-carpenter-jr55i362bMg-unsplash.jpg';
+
 const mainPage = () => {
   const content = document.querySelector('#content');
   
@@ -6,7 +8,8 @@ const mainPage = () => {
   content.appendChild(h1);
 
   const img = document.createElement('img');
-  img.src = './img/beau-carpenter-jr55i362bMg-unsplash.jpg';
+  // img.src = './img/beau-carpenter-jr55i362bMg-unsplash.jpg';
+  img.src = Photo;
   content.appendChild(img);
 
   const p = document.createElement('p');
@@ -14,4 +17,3 @@ const mainPage = () => {
   content.appendChild(p);
 }
 export { mainPage };
-
