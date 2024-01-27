@@ -6,7 +6,7 @@ const mainPage = () => {
   content.appendChild(h1);
 
   const img = document.createElement('img');
-  img.src = '../src/img/beau-carpenter-jr55i362bMg-unsplash.jpg';
+  img.src = './img/beau-carpenter-jr55i362bMg-unsplash.jpg';
   content.appendChild(img);
 
   const p = document.createElement('p');
