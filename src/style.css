@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 15px;
+  font-size: 1.5rem;
+}
+
+#content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px 100px;
+}
+
+#content > img {
+  height: 300px;
+}
